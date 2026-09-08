@@ -188,10 +188,8 @@ function App() {
                 Computer Science Student · ML Enthusiast · Data Explorer
               </div>
 
-              <h1 className="max-w-4xl font-display text-[3.5rem] leading-[0.86] tracking-[-0.08em] text-[#f3efe8] sm:text-[5rem] lg:text-[6.3rem]">
-                I LIKE EXPLORING
-                <span className="block text-[#d6d9df]">DATA AND SEEING</span>
-                <span className="block text-[#6fe0d4]">WHERE IT TAKES ME.</span>
+              <h1 className="max-w-2xl font-display text-[2.7rem] leading-[0.9] tracking-[-0.08em] text-[#f3efe8] sm:text-[4rem] lg:text-[4.8rem]">
+                Lavanya SM
               </h1>
 
               <div className="mt-7 flex min-h-[2.5rem] items-center text-[1.2rem] font-medium uppercase tracking-[0.22em] text-[#8bd9d1]">
@@ -234,12 +232,12 @@ function App() {
               initial={prefersReducedMotion ? false : { opacity: 0, x: 24 }}
               animate={prefersReducedMotion ? { opacity: 1 } : { opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.14, ease: 'easeOut' }}
-              className="relative z-10 flex items-end justify-center"
+              className="relative z-10 flex items-center justify-center"
             >
-              <div className="w-full max-w-[540px] rounded-[32px] border border-white/10 bg-[#0f1725] p-4 shadow-glow">
+              <div className="w-full max-w-[540px] overflow-hidden rounded-[32px] border border-white/10 bg-[#0f1725] p-4 shadow-glow">
                 <div className="relative overflow-hidden rounded-[24px] border border-white/10 bg-[#dfe5eb] p-3">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(35,228,201,0.18),transparent_40%)]" />
-                  <img src="/assets/profile.jpg" alt="Lavanya SM portrait" className="relative h-[650px] w-full rounded-[18px] object-cover grayscale-[0.15]" />
+                  <img src="/assets/profile.jpg" alt="Lavanya SM portrait" className="relative aspect-[4/5] h-full w-full rounded-[18px] object-cover object-center grayscale-[0.15]" />
                 </div>
                 <div className="mt-4 flex items-center justify-between gap-4 text-[#dfe6ec]">
                   <div>
@@ -268,8 +266,8 @@ function App() {
             <div className="mb-8 text-[11px] font-medium uppercase tracking-[0.25em] text-[#93a9bb]">A little about me.</div>
             <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
               <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-[#111b27] p-3">
-                <div className="aspect-[4/5] overflow-hidden rounded-[22px] bg-[#dfe7f0]">
-                  <img src="/assets/profile.jpg" alt="Lavanya portrait close-up" className="h-full w-full object-cover" />
+                <div className="aspect-[4/5] max-h-[520px] overflow-hidden rounded-[22px] bg-[#dfe7f0]">
+                  <img src="/assets/about-profile.jpg" alt="Lavanya portrait close-up" className="h-full w-full object-cover object-center" />
                 </div>
               </div>
 
