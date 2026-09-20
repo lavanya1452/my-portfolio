@@ -13,6 +13,26 @@ export const certificateCategories = ['ALL', 'AI / ML', 'DATA SCIENCE', 'SQL', '
 
 export const certificates: Certificate[] = [
   {
+    id: 'oracle-data-science-professional',
+    title: 'Oracle Cloud Infrastructure 2025 Certified Data Science Professional',
+    organization: 'Oracle',
+    date: 'Oct 2025',
+    category: 'DATA SCIENCE',
+    image: '/assets/certificates/oracle-data-science-professional-2025.png',
+    pdfUrl: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=421D05785FBB4E07981A5D32BD1C739010D6A2A1D31FD9E5F1BCB5B51D4A1D79',
+    verificationUrl: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=421D05785FBB4E07981A5D32BD1C739010D6A2A1D31FD9E5F1BCB5B51D4A1D79',
+  },
+  {
+    id: 'oracle-ai-foundations-associate',
+    title: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate',
+    organization: 'Oracle',
+    date: 'Oct 2025',
+    category: 'AI / ML',
+    image: '/assets/certificates/oracle-ai-foundations-2025.png',
+    pdfUrl: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=CF21453AFFA3D1EB40DDE5D9B264DA2FA5CCEF8D275CD19240C386E3EB080CF3',
+    verificationUrl: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=CF21453AFFA3D1EB40DDE5D9B264DA2FA5CCEF8D275CD19240C386E3EB080CF3',
+  },
+  {
     id: 'ml-foundations',
     title: 'Machine Learning Foundations',
     organization: 'Coursera',
