@@ -26,7 +26,7 @@ export const projects: Project[] = [
     technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib'],
     results:
       'The model surfaced the most important churn signals and helped turn an opaque retention problem into a more actionable, data-driven workflow.',
-    githubUrl: 'https://github.com/yourusername/churn-prediction',
+    githubUrl: 'https://github.com/lavanya1452/churn-prediction',
     liveUrl: '#',
     image: '/assets/projects/churn.jpg',
   },
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     technologies: ['TypeScript', 'APIs', 'Security', 'Backend'],
     results:
       'The project demonstrates a practical approach to exposure monitoring and how security signals can be made more visible to users and teams.',
-    githubUrl: 'https://github.com/yourusername/leaklock',
+    githubUrl: 'https://github.com/lavanya1452/leaklock',
     liveUrl: '#',
     image: '/assets/projects/leaklock.jpg',
   },
@@ -60,7 +60,7 @@ export const projects: Project[] = [
     technologies: ['Python', 'K-Means', 'DBSCAN', 'Clustering', 'Data Visualization'],
     results:
       'The analysis made underlying customer patterns easier to interpret and highlighted how clustering can support segmentation decisions.',
-    githubUrl: 'https://github.com/yourusername/customer-segmentation',
+    githubUrl: 'https://github.com/lavanya1452/customer-segmentation',
     liveUrl: '#',
     image: '/assets/projects/segmentation.jpg',
   },
